@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
+// import heading component
+import Heading from "./Heading";
+import UnOrderedList from "./UnOrderedList";
 
 ReactDOM.render(
   <div>
-    <h1>My Favourite Foods</h1>
-    <ul>
-      <li>Bacon</li>
-      <li>Jamon</li>
-      <li>Noodles</li>
-    </ul>
+    {/* usage the heading component */}
+    <Heading />
+    <UnOrderedList />
   </div>,
   document.getElementById("root")
 );
